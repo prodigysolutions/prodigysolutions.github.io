@@ -1,7 +1,7 @@
 jQuery(window).on('load', function() {
       
 if ($('#preloader').length) {
-      $('#preloader').delay(1500).fadeOut('slow', function() {
+      $('#preloader').delay(100).fadeOut('slow', function() {
         
     // HIDE PRELAODER
     $(this).addClass("preloader-hidden");
@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
     $(window).on('load', function() {
       
 if ($('#preloader').length) {
-      $('#preloader').delay(1500).fadeOut('slow', function() {
+      $('#preloader').delay(100).fadeOut('slow', function() {
         
         // HIDE PRELAODER
         $(this).addClass("preloader-hidden");
