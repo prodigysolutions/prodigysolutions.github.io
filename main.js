@@ -2,7 +2,6 @@ jQuery(window).on('load', function() {
         
     // HIDE PRELAODER
     $(this).addClass("preloader-hidden");
-      });
 
     // SHOW/ANIMATE ANIMATION CONTAINER
     setTimeout(function(){
@@ -33,7 +32,7 @@ jQuery(document).ready(function($) {
         
         // HIDE PRELAODER
         $(this).addClass("preloader-hidden");
-      });
+      
     
 
         // SHOW/ANIMATE ANIMATION CONTAINER
