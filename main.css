@@ -541,7 +541,7 @@ a:hover
 
 .hero .background-content
 {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -552,7 +552,7 @@ a:hover
 
 .hero .background-content.parallax-on
 {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 50%;
     left: 50%;
@@ -566,7 +566,7 @@ a:hover
 
 .hero .background-content .background-overlay
 {
-    position: absolute;
+    position: fixed;
     z-index: 50;
     top: 0;
     left: 0;
@@ -580,7 +580,7 @@ a:hover
 
 .hero .background-content .background-img
 {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -595,7 +595,7 @@ a:hover
 }
 
 .social-links {
-  margin: 0 0 40px 0;
+  margin: 0 0 10px 0;
 }
 
 .social-links a {
